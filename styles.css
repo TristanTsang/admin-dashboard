@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+.outer-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+}
+
+.sidebar {
+  background-color: rgb(44, 54, 63);
+  display: block;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 50px 1rem repeat(auto-fit, 2rem);
+  padding: 1.5rem;
+  color: white;
+  font-family: "Roboto", "Arial";
+  font-weight: 500;
+  font-size: 18px;
+  row-gap: 10px;
+  column-gap: 10px;
+  line-height: 2rem;
+}
+.title {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  background-color: #d6dbd2;
+}
+.main-screen {
+  background-color: #f2f5ea;
+}
+
+.main-content {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+.banner {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.top-banner {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px 50px 10rem;
+  grid-template-rows: 1fr 2fr;
+}
+
+.bottom-banner {
+  display: grid;
+  grid-template-columns: 75px 1fr 7.5rem 7.5rem 7.5rem;
+}
